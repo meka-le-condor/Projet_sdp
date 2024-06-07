@@ -4,6 +4,7 @@ import image from  '../public/images/bg.jpg'
 import images from  '../public/images/3676962.jpg'
 import Header from './Header'
 import AboutPage from './AboutPage'
+import Contact from './Contact'
 
 export default function HomePage() {
  
@@ -51,6 +52,8 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className='h-full text-black bg-slate-400'><AboutPage/></div>
+                <div className='h-full text-black bg-[#1424417b]'><Contact/></div>
+
             </div>
            
         </div>    
